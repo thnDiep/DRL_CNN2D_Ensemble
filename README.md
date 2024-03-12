@@ -39,8 +39,8 @@ python main.py -t <trader> -m <model> -w <windowed-size> -d <dataset> -n <number
   * dqn_pi
   * dqn_ci
   * dqn_ti
-  * cnn2d-pi
-  * cnn2d-ci
+  * cnn2d_pi
+  * cnn2d_ci
   * random_forest
   * svm
   * rule_based
@@ -49,7 +49,7 @@ python main.py -t <trader> -m <model> -w <windowed-size> -d <dataset> -n <number
 * `dataset`: GOOGL, GE, BTC-USD
 * `number-of-episodes`: default is 1
 
-Example, to test the proposed model in BTC-USD dataset: 
+Example, to test the proposed model in BTC-USD dataset:
 ```shell
 python main.py -m ours -w 10 -d BTC-USD
 ```
